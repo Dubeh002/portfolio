@@ -9,36 +9,145 @@
 <body>
     <div class="container">
         <header>
+            <img src="profile.jpg" alt="Hloniphani Dube" class="profile-img">
             <h1>Hloniphani Dube</h1>
-            <p class="subtitle">Network Engineering | Cybersecurity | Systems Engineering</p>
+            <p class="subtitle">Network Engineer | Cybersecurity Enthusiast | System Administrator</p>
         </header>
 
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#work">Work History</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a dedicated IT professional with hands-on experience in system administration, network security, and enterprise IT infrastructure. Currently pursuing a Master's degree in Information Technology with a focus on Enterprise Architecture.</p>
+            <p>I am an IT professional with experience in system administration, networking, and cybersecurity. Currently pursuing a Master's in Information Technology with a concentration in Enterprise Architecture. I am passionate about building secure, scalable infrastructure and mentoring others on their IT journey.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Networking: TCP/IP, DNS, DHCP, VPNs, LAN/WAN, Cisco Routers & Switches</li>
+                <li>Cybersecurity: Risk Management, Network Security, System Hardening</li>
+                <li>Cloud: AWS, Azure</li>
+                <li>Tools: Windows, MacOS, Tableau, PuTTY, PowerShell, Python, SQL</li>
+            </ul>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
+
+            <div>
+                <h3>Virtual Lab Setup</h3>
+                <p>Designed home lab using Proxmox to simulate enterprise environments with virtual firewalls, switches, and servers.</p>
+            </div>
+
+            <div>
+                <h3>DJ App Concept</h3>
+                <p>Built a concept to help users learn DJing, mix tracks, and participate in virtual events.</p>
+                <pre><code>
+&lt;section class="dj-app"&gt;
+  &lt;h2&gt;DJ Training App&lt;/h2&gt;
+  &lt;p&gt;Learn to mix, upload your own music, and get feedback from the community.&lt;/p&gt;
+&lt;/section&gt;
+                </code></pre>
+                <ul>
+                    <li>Interactive tutorials for DJs</li>
+                    <li>Mix upload and rating system</li>
+                    <li>Metaverse-ready features</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Victoria Falls Guide</h3>
+                <p>A tourist guide app showcasing attractions in Victoria Falls with offline support and local business listings.</p>
+                <pre><code>
+@app.route('/attractions')
+def show_attractions():
+    return render_template("attractions.html", data=get_attractions())
+                </code></pre>
+                <ul>
+                    <li>Interactive map and recommendations</li>
+                    <li>Custom itinerary planning</li>
+                    <li>Multilingual support for tourists</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Fabric Store Web Design</h3>
+                <p>A mock e-commerce site for a fabric store, focusing on clean UI and user-friendly navigation.</p>
+                <pre><code>
+&lt;div class="product-grid"&gt;
+  &lt;div class="product-card"&gt;
+    &lt;img src="fabric1.jpg" alt="Cotton Fabric"&gt;
+    &lt;h4&gt;Cotton Fabric - Blue&lt;/h4&gt;
+    &lt;p&gt;$12.99/yard&lt;/p&gt;
+    &lt;button&gt;Add to Cart&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+                <ul>
+                    <li>Responsive grid layout for fabric items</li>
+                    <li>Cart and checkout flow</li>
+                    <li>Modern branding and accessibility features</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p><a href="Hloniphani_Dube_Resume.pdf" target="_blank"><strong>Download Resume as PDF</strong></a></p>
+
+            <h3>Technical Skills</h3>
             <ul>
-                <li><strong>Virtual Lab Setup</strong> – Home lab for practicing system engineering using Proxmox and VMware.</li>
-                <li><strong>DJ App Concept</strong> – A music learning platform merging DJs with metaverse experiences.</li>
-                <li><strong>Victoria Falls Tourism Guide</strong> – A visitor engagement app promoting local experiences.</li>
+                <li>TCP/IP, DNS, DHCP, VPNs, LAN/WAN, Cisco Routers/Switches, Firewall Configuration</li>
+                <li>Risk Management, Cyber Defense, System Hardening</li>
+                <li>Windows, MacOS, Azure, AWS, Tableau, PuTTY</li>
+                <li>Python, SQL, PowerShell</li>
             </ul>
+
+            <h3>Education</h3>
+            <p>B.S. in IT – Cybersecurity<br>Southern New Hampshire University | GPA: 3.78</p>
+
+            <h3>Certifications</h3>
+            <ul>
+                <li>CompTIA A+ - in progress</li>
+                <li>CCNA - in progress</li>
+            </ul>
+        </section>
+
+        <section id="work">
+            <h2>Work History</h2>
+            <div>
+                <h3>Walt Disney World Resort</h3>
+                <p><strong>Resort Concierge | Trainer</strong> | May 2021 – Present</p>
+                <ul>
+                    <li>Handled reservations, billing, and back-office support</li>
+                    <li>Trained cast on systems and security compliance</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Universal Studios Orlando</h3>
+                <p><strong>Attractions Attendant</strong> | Nov 2019 – May 2021</p>
+                <ul>
+                    <li>Managed safety and system tech</li>
+                    <li>Cyber awareness program compliance</li>
+                </ul>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: hloniphanidube@example.com</p>
+            <p>Email: hloniphanidube@icloud.com</p>
+            <p>Phone: 407-795-0628</p>
             <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/hloniphani-dube002" target="_blank">linkedin.com/in/hloniphani-dube002</a></p>
         </section>
 
         <footer>
