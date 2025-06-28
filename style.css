@@ -60,3 +60,17 @@ footer {
     border-top: 1px solid #ddd;
     color: #777;
 }
+
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.edu-table th, .edu-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.edu-table th {
+    background-color: #f0f8ff;
+}

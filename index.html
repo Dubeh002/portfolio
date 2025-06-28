@@ -1,182 +1,227 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hloniphani Dube | IT Professional</title>
+    <title>Hloniphani Dube Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <img src="profile.jpg" alt="Hloniphani Dube" class="profile-img">
-            <h1>Hloniphani Dube</h1>
-            <p class="subtitle">Network Engineer | Cybersecurity Enthusiast | System Administrator</p>
-        </header>
+<body><header>
+    <img src="profile.jpg" alt="Hloniphani Dube Profile Picture" style="max-width: 120px; border-radius: 50%; display: block; margin: 0 auto 10px;"><h1>Hloniphani Dube</h1>
+    <p>IT Professional | Cybersecurity | Network Engineering</p>
+</header>
 
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#work">Work History</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+<nav>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#work">Work History</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am an IT professional with experience in system administration, networking, and cybersecurity. Currently pursuing a Master's in Information Technology with a concentration in Enterprise Architecture. I am passionate about building secure, scalable infrastructure and mentoring others on their IT journey.</p>
-        </section>
+<main>
 
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Networking: TCP/IP, DNS, DHCP, VPNs, LAN/WAN, Cisco Routers & Switches</li>
-                <li>Cybersecurity: Risk Management, Network Security, System Hardening</li>
-                <li>Cloud: AWS, Azure</li>
-                <li>Tools: Windows, MacOS, Tableau, PuTTY, PowerShell, Python, SQL</li>
-            </ul>
-        </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate IT professional focused on cybersecurity, system administration, and network engineering. I enjoy learning and applying new technologies to solve real-world problems and continuously seek to improve my skills through education and practical experience.</p>
+</section>
 
-        <!-- Content beyond this point is shown only when navigating via tabs -->
+
+<section id="skills" style="display:none;">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Network Design & Configuration</li>
+        <li>Cybersecurity Protocols</li>
+        <li>Windows & Linux Server Management</li>
+        <li>Cloud Computing (AWS, Azure)</li>
+        <li>Database Management</li>
+        <li>HTML/CSS, Git, Python</li>
+    </ul>
+</section>
+
+<section id="certifications" style="display:none;"><h2>Certifications</h2>
+    <ul>
+        <li>CompTIA A+ (In Progress)</li>
+        <li>CompTIA Network+ (In Progress)</li>
+        <li>CCNA – Cisco Certified Network Associate (Scheduled)</li>
+    </ul>
+</section>
+
+
+<section id="education" style="display:none;"><h2>Education</h2>
+    <div>
+        <h3>Master of Science in Information Technology – Enterprise Architecture</h3>
+        <p><strong>Purdue University Global</strong> (In Progress, Expected 2026)</p>
+        <ul>
+            <li>Enterprise Architecture Concepts</li>
+            <li>Cloud Computing Infrastructure</li>
+            <li>IT Governance and Compliance</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Bachelor of Science in Information Technology – Cybersecurity</h3>
+        <p><strong>Southern New Hampshire University</strong> (Graduated August 2024 | GPA: 3.78)</p>
+        <p><strong>Relevant Coursework:</strong></p>
+        <ul>
+            <li>CYB-200: Cybersecurity Foundations</li>
+            <li>CYB-210: Computer Networking</li>
+            <li>CYB-220: Network Security</li>
+            <li>CYB-250: Cyber Defense</li>
+            <li>IT-140: Introduction to Scripting</li>
+            <li>IT-253: Computer Systems Security</li>
+            <li>IT-260: Web-Oriented Services</li>
+            <li>IT-270: Website Design</li>
+            <li>IT-304: System Requirements & Implementation</li>
+            <li>IT-313: Risk Management & Mitigation</li>
+            <li>IT-423: Computing as a Service</li>
+            <li>IT-482: IT Operations & Systems Planning</li>
+            <li>DAT-210: Foundations of Data Analytics</li>
+        </ul>
+    </div>
+</section>
+
+
+
+
+
 <section id="projects" style="display:none;">
-            <h2>Projects</h2>
+    <h2>Projects</h2>
 
-            <div>
-                <h3>Virtual Lab Setup</h3>
-                <p>Designed home lab using Proxmox to simulate enterprise environments with virtual firewalls, switches, and servers.</p>
-            </div>
-
-            <div>
-                <h3>DJ App Concept</h3>
-                <p>Built a concept to help users learn DJing, mix tracks, and participate in virtual events.</p>
-                <pre><code>
-&lt;section class="dj-app"&gt;
-  &lt;h2&gt;DJ Training App&lt;/h2&gt;
-  &lt;p&gt;Learn to mix, upload your own music, and get feedback from the community.&lt;/p&gt;
-&lt;/section&gt;
-                </code></pre>
-                <ul>
-                    <li>Interactive tutorials for DJs</li>
-                    <li>Mix upload and rating system</li>
-                    <li>Metaverse-ready features</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Victoria Falls Guide</h3>
-                <p>A tourist guide app showcasing attractions in Victoria Falls with offline support and local business listings.</p>
-                <pre><code>
-@app.route('/attractions')
-def show_attractions():
-    return render_template("attractions.html", data=get_attractions())
-                </code></pre>
-                <ul>
-                    <li>Interactive map and recommendations</li>
-                    <li>Custom itinerary planning</li>
-                    <li>Multilingual support for tourists</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Fabric Store Web Design</h3>
-                <p>A mock e-commerce site for a fabric store, focusing on clean UI and user-friendly navigation.</p>
-                <pre><code>
-&lt;div class="product-grid"&gt;
-  &lt;div class="product-card"&gt;
-    &lt;img src="fabric1.jpg" alt="Cotton Fabric"&gt;
-    &lt;h4&gt;Cotton Fabric - Blue&lt;/h4&gt;
-    &lt;p&gt;$12.99/yard&lt;/p&gt;
-    &lt;button&gt;Add to Cart&lt;/button&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-                </code></pre>
-                <ul>
-                    <li>Responsive grid layout for fabric items</li>
-                    <li>Cart and checkout flow</li>
-                    <li>Modern branding and accessibility features</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="resume" style="display:none;">
-            <h2>Resume</h2>
-            <p><a href="Hloniphani_Dube_Resume.pdf" target="_blank"><strong>Download Resume as PDF</strong></a></p>
-
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>TCP/IP, DNS, DHCP, VPNs, LAN/WAN, Cisco Routers/Switches, Firewall Configuration</li>
-                <li>Risk Management, Cyber Defense, System Hardening</li>
-                <li>Windows, MacOS, Azure, AWS, Tableau, PuTTY</li>
-                <li>Python, SQL, PowerShell</li>
-            </ul>
-
-            <h3>Education</h3>
-            <p>B.S. in IT – Cybersecurity<br>Southern New Hampshire University | GPA: 3.78</p>
-
-            <h3>Certifications</h3>
-            <ul>
-                <li>CompTIA A+ - in progress</li>
-                <li>CCNA - in progress</li>
-            </ul>
-        </section>
-
-        <section id="work" style="display:none;">
-            <h2>Work History</h2>
-            <div>
-                <h3>Walt Disney World Resort</h3>
-                <p><strong>Resort Concierge | Trainer</strong> | May 2021 – Present</p>
-                <ul>
-                    <li>Handled reservations, billing, and back-office support</li>
-                    <li>Trained cast on systems and security compliance</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Universal Studios Orlando</h3>
-                <p><strong>Attractions Attendant</strong> | Nov 2019 – May 2021</p>
-                <ul>
-                    <li>Managed safety and system tech</li>
-                    <li>Cyber awareness program compliance</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="contact" style="display:none;">
-            <h2>Contact</h2>
-            <p>Email: hloniphanidube@icloud.com</p>
-            <p>Phone: 407-795-0628</p>
-            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/hloniphani-dube002" target="_blank">linkedin.com/in/hloniphani-dube002</a></p>
-        </section>
-
-        <footer>
-            <p>© 2025 Hloniphani Dube</p>
-        </footer>
+    <div>
+        <h3>Victoria Falls Tourism App</h3>
+        <p>A mobile/web app guiding tourists through Victoria Falls town, featuring maps and local experiences.</p>
+        <pre><code>// Sample Code: Map Marker
+map.addMarker(LatLng(-17.9243, 25.8567), "Victoria Falls", "Must-see natural wonder");
+</code></pre>
+        <ul>
+            <li>Integrated GPS and real-time weather info</li>
+            <li>Designed UI/UX for offline access</li>
+            <li>Provided attraction descriptions and categorized recommendations</li>
+            <li>Enabled feedback and ratings from visitors</li>
+            <li>Tested cross-browser mobile compatibility</li>
+        </ul>
     </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const sections = ['projects', 'resume', 'work', 'contact'];
-        const hash = window.location.hash.substring(1);
-        if (sections.includes(hash)) {
-            document.getElementById(hash).style.display = 'block';
-        } else {
-            sections.forEach(id => document.getElementById(id).style.display = 'none');
-        }
+    <div>
+        <h3>DJ Learning Platform</h3>
+        <p>App that teaches DJ skills, hosts DJ profiles, and offers metaverse performance bookings.</p>
+        <pre><code>// Sample Code: Beat Pad
+&lt;button onclick="playBeat('kick')">Kick&lt;/button>
+&lt;script>
+function playBeat(beat) {
+  const audio = new Audio(beat + ".mp3");
+  audio.play();
+}
+&lt;/script>
+</code></pre>
+        <ul>
+            <li>Created interactive tutorials for beginners</li>
+            <li>Built rating and feedback system for DJs</li>
+            <li>Planned integration with metaverse platforms</li>
+            <li>Implemented DJ showcase and booking system</li>
+            <li>Added secure account management and uploads</li>
+        </ul>
+    </div>
 
-        document.querySelectorAll('nav a').forEach(link => {
-            link.addEventListener('click', function (e) {
-                sections.forEach(id => {
-                    document.getElementById(id).style.display = 'none';
-                });
-                const targetId = this.getAttribute('href').substring(1);
-                const target = document.getElementById(targetId);
-                if (target) target.style.display = 'block';
-            });
+    <div>
+        <h3>Fabric Store Website</h3>
+        <p>Built a professional website for a fictional fabric store, optimized for product browsing and purchase.</p>
+        <pre><code>&lt;div class="product-card">
+  &lt;h4>Blue Cotton Fabric&lt;/h4>
+  &lt;p>$9.99 / yard&lt;/p>
+  &lt;button>Add to Cart&lt;/button>
+&lt;/div>
+</code></pre>
+        <ul>
+            <li>Developed HTML/CSS layout with mobile responsiveness</li>
+            <li>Implemented add-to-cart functionality</li>
+            <li>Used Flexbox for clean product grid styling</li>
+            <li>Optimized image loading for performance</li>
+            <li>Created About and Contact pages to improve UX</li>
+        </ul>
+    </div>
+</section>
+
+
+
+
+
+<section id="work" style="display:none;"><h2>Work History</h2>
+
+    <div>
+        <h3>Walt Disney World Resort – Front Desk / Concierge</h3>
+        <ul>
+            <li>Provided exceptional guest service in a high-volume environment</li>
+            <li>Assisted guests with check-in/check-out, room upgrades, and ticketing</li>
+            <li>Resolved complex guest issues and ensured seamless experiences</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Universal Studios Orlando – Attractions Operator</h3>
+        <ul>
+            <li>Operated multiple attractions safely and efficiently</li>
+            <li>Provided safety instructions and guest support during ride cycles</li>
+            <li>Monitored equipment and communicated operational status to team leaders</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Avis Vehicle Rental – Rental Consultant (Zimbabwe)</h3>
+        <ul>
+            <li>Handled vehicle reservations, upgrades, and returns with high accuracy</li>
+            <li>Promoted premium packages and insurance services to maximize revenue</li>
+            <li>Maintained daily logs and reports for fleet management</li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="resume" style="display:none;"><h2>Resume</h2>
+    <p><a href="Hloniphani_Dube_Resume.pdf" download>Download PDF Resume</a></p>
+</section>
+
+<section id="contact" style="display:none;"><h2>Contact</h2>
+    <p>Email: hloniphanidube@icloud.com</p>
+    <p>Phone: (407) 795-0628</p>
+    <p>LinkedIn</p>
+</section>
+</main>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const sections = ['about', 'skills', 'certifications', 'education', 'projects', 'work', 'resume', 'contact'];
+
+    function showSection(targetId) {
+        sections.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.display = (id === targetId) ? 'block' : 'none';
+        });
+    }
+
+    const hash = window.location.hash.substring(1);
+    if (sections.includes(hash)) {
+        showSection(hash);
+    } else {
+        showSection('about'); // Show 'about' as default
+    }
+
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            showSection(targetId);
+            history.pushState(null, null, '#' + targetId);
         });
     });
+});
 </script>
 </body>
+
 </html>
